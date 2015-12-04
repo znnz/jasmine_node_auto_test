@@ -1,0 +1,20 @@
+{
+  "name": "jasmine-node-auto-test",
+  "version": "0.1.0",
+  "description": "Jasmine Node Auto Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "znnz",
+  "license": "MIT",
+  "devDependencies":{},
+  "scripts":{
+  	"test":"jasmine-node spec"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.67.0"
+  }
+}
